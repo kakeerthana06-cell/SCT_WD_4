@@ -1,0 +1,126 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: "Segoe UI", sans-serif;
+}
+
+body{
+background:#f4f6f9;
+display:flex;
+justify-content:center;
+padding:40px 10px;
+}
+
+.app{
+background:white;
+width:100%;
+max-width:700px;
+padding:30px;
+border-radius:12px;
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
+header{
+text-align:center;
+margin-bottom:25px;
+}
+
+header h1{
+color:#2c3e50;
+margin-bottom:5px;
+}
+
+header p{
+color:#7f8c8d;
+font-size:14px;
+}
+
+.input-section{
+display:flex;
+gap:10px;
+margin-bottom:25px;
+flex-wrap:wrap;
+}
+
+.input-section input{
+flex:1;
+padding:10px;
+border:1px solid #dcdde1;
+border-radius:6px;
+font-size:14px;
+}
+
+.input-section button{
+padding:10px 18px;
+border:none;
+background:#2c3e50;
+color:white;
+border-radius:6px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.input-section button:hover{
+background:#34495e;
+}
+
+ul{
+list-style:none;
+}
+
+li{
+background:#f8f9fa;
+padding:15px;
+margin-bottom:12px;
+border-radius:8px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+transition:0.3s;
+border-left:5px solid #2c3e50;
+}
+
+li.completed{
+text-decoration:line-through;
+opacity:0.6;
+border-left:5px solid #27ae60;
+}
+
+.task-details{
+flex:1;
+}
+
+.task-date{
+font-size:12px;
+color:#7f8c8d;
+margin-top:5px;
+}
+
+.actions button{
+border:none;
+padding:6px 10px;
+margin-left:5px;
+border-radius:5px;
+cursor:pointer;
+font-size:12px;
+}
+
+.complete-btn{
+background:#27ae60;
+color:white;
+}
+
+.edit-btn{
+background:#2980b9;
+color:white;
+}
+
+.delete-btn{
+background:#c0392b;
+color:white;
+}
+
+.actions button:hover{
+opacity:0.8;
+}
